@@ -1,0 +1,19 @@
+:root{
+    --first-color: #ffffff;
+    --bg-alpa-color: rgba(0,0,0,0.8); 
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.bg {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-alpha-color {
+    background-color: var(--bg-alpa-color);
+}
